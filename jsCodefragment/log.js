@@ -1,6 +1,7 @@
 /* ******Package******
  * Name: {log}
  * Tags: {log, console, utility}
+ * Description: console.log加强版，增加了浏览器支持判断。
  */
 $NAMESPACE['log'] = function(){
     window.console && 

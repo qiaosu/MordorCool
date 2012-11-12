@@ -1,6 +1,7 @@
 /* ******Package******
  * Name: {Random}
  * Tags: {random, color, utility}
+ * Description: 各种随机处理，随机字符串，随机颜色（hex, hsb, rgb等）
  */
 $NAMESPACE['random'] = function(){
     var cs = "_0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; 

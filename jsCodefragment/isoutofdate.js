@@ -1,6 +1,7 @@
 /* ******Package******
  * Name: {isOutOfDate}
  * Tags: {date, utility}
+ * Description: 日期区间判断
  */
 $NAMESPACE['isOutOfDate'] = function(dateStart, dateEnd, days){
     var dateStart = dateStart, dateEnd = dateEnd, days = days || 365;

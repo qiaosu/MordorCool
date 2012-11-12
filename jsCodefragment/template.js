@@ -1,6 +1,7 @@
 /* ******Package******
  * Name: {Template}
- * Tags: {template, utility}
+ * Tags: {template, utility, underscore}
+ * Description: Underscore提供的轻量级模板引擎
  */
 $NAMESPACE['template'] = function(){
     // JavaScript micro-templating, similar to John Resig's implementation.
