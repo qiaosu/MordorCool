@@ -2,6 +2,7 @@
  * Name: {isOutOfDate}
  * Tags: {date, utility}
  * Description: 日期区间判断
+ * Recommend: 董超
  */
 $NAMESPACE['isOutOfDate'] = function(dateStart, dateEnd, days){
     var dateStart = dateStart, dateEnd = dateEnd, days = days || 365;
