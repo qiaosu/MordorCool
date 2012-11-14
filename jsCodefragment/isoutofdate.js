@@ -1,14 +1,10 @@
-/**
- * @author 花名
- * @param {Date} dateStart
- * @param {Date} dateEnd
- * @param {Number} [days=365]
- * @return {Number}
- * @description 方法描述
- * @tag '时间','间隔'
- * @example 简要的例子
+/* ******Package******
+ * Name: {isOutOfDate}
+ * Tags: {date, utility}
+ * Description: 日期区间判断
+ * Recommend: 董超
  */
-var isOutOfDate = function(dateStart, dateEnd, days){
+$NAMESPACE['isOutOfDate'] = function(dateStart, dateEnd, days){
     var dateStart = dateStart, dateEnd = dateEnd, days = days || 365;
     dateStart = dateStart.replace(/[-\.]/g, '/');
     dateEnd = dateEnd.replace(/[-\.]/g, '/');
