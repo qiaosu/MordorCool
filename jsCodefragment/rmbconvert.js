@@ -1,6 +1,6 @@
 /* ******Package******
  * Name: {RMBConvert}
- * Tags: {number,amount, utility}
+ * Tags: {RMB, amount, functional, 金额转换}
  * Description: 金额大小写转换
  * Recommend: 董超
  * usage: RMBConvert(123) => "壹佰贰拾叁元整 "
@@ -131,7 +131,7 @@ $NAMESPACE['RMBConvert'] = function () {
             outputCharacters = CN_ZERO + CN_DOLLAR;
         }
 
-        if (decimal == "" || parseInt(decimal) === 0) {
+        if (decimal == "" || parseInt(decimal, 10) === 0) {
             outputCharacters += CN_INTEGER;
         }
 
