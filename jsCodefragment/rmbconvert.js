@@ -33,7 +33,7 @@ $NAMESPACE['RMBConvert'] = function () {
         var CN_TEN_CENT = "角";
         var CN_CENT = "分";
         var CN_INTEGER = "整";
-
+//
         // Variables:
         var integral; // Represent integral part of digit number.
         var decimal; // Represent decimal part of digit number.
