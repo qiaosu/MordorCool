@@ -7,6 +7,5 @@
 $NAMESPACE['initDomain'] = function(){
     try{
         document.domain = document.domain.split(".").slice(-2).join(".");
-    }catch(ex){
-    }
+    }catch(ex){}
 };
