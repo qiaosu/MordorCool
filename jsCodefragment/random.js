@@ -4,7 +4,7 @@
  * Description: 各种随机处理，随机字符串，随机颜色（hex, hsb, rgb等）
  * Recommend: 樵苏
  */
-$NAMESPACE['random'] = function(){
+$NAMESPACE['random'] = (function(){
     var cs = "_0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; 
     //http://www.flickriver.com/groups/coresvivas/pool/random/
     //http://paulirish.com/2009/random-hex-color-code-snippets/
@@ -48,5 +48,5 @@ $NAMESPACE['random'] = function(){
             return s;
         }
     }
-}
+})();
 
